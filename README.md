@@ -28,7 +28,16 @@
     -   <details>
         <summary>Compile time vs Runtime</summary>
 
-        
+        - Compile time
+            > Compile time is the period when source code is converted to machine code or binary code. The compiler check for the syntax and semantics of the code.
+            > 
+            > Source code, dependent files, interfaces and required libraries are inputs and a complied assembly code returns as outputs, otherwise compile time error
+            > 
+            > Assembly code is after compile time (at runtime)
+        - Runtime
+
+        - Difference
+
         </details>
 
     -   <details>
