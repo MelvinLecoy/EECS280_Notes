@@ -42,7 +42,11 @@
             > - **Dereferencing a null pointer (attempts to access memory with a NULL)**
             > - **Running out of memory (stack overflow)**
         - Difference
-
+            Compile time | Runtime
+            --- | ---
+            Period to translate source code to intermediate code like .exe | Period between start of running intermediate code through Assembly code and finish running at a runtime environment
+            Check syntax and semantics; error get detected by compiler without execution of program | Run the code and only detected after execution of program
+            When we just look at the source code, variables don’t have value | Objects have values when we run the program (Value is only meaningful during execution)
         </details>
 
     -   <details>
