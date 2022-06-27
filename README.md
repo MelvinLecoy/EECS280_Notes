@@ -19,6 +19,10 @@
         --- | ---
         Name that refers to object in memory | Data that’s located in some address in memory
         Created at Compile time (source code) | Created at Runtime
+
+        - Many variable names for 1 object: **Reference variables**
+        - 1 variable name for many objects: **Arrays**
+        - No variable name for 1 object: **Dynamic Memory**
         </details>
 
     -   <details>
@@ -28,9 +32,11 @@
         </details>
 
     -   <details>
-        <summary>Terminology</summary>
+        <summary>Lifetime: the storage duration of an object</summary>
 
-        
+        - **Static**: for the whole program
+        - **Automatic**/**Local**: lifetime is tied to a scope during execution of its local block
+        - **Dynamic**: the object is explicitly created and destroyed by the user
         </details>
 
     </details>
