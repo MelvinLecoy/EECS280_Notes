@@ -35,7 +35,12 @@
             > 
             > Assembly code is after compile time (at runtime)
         - Runtime
-
+            > A program’s lifetime is a runtime when the program is in execution
+            > 
+            > Examples of Runtime error: 
+            > - **Division by zero (error based on value)**
+            > - **Dereferencing a null pointer (attempts to access memory with a NULL)**
+            > - **Running out of memory (stack overflow)**
         - Difference
 
         </details>
