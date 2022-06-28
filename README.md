@@ -6,7 +6,7 @@
 -   <details>
     <summary>Diagram of software program stages</summary>
 
-    <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/40ad7c1d-1cb5-4764-a0a3-327b78819695/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220627%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220627T141943Z&X-Amz-Expires=86400&X-Amz-Signature=3bee3aeb7afdad778e46058cb805b62346651a11fdce9be4e63af576dbdfbc63&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="600" height="250">
+    <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/40ad7c1d-1cb5-4764-a0a3-327b78819695/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220627%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220627T141943Z&X-Amz-Expires=86400&X-Amz-Signature=3bee3aeb7afdad778e46058cb805b62346651a11fdce9be4e63af576dbdfbc63&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="500" height="200">
     </details>
 
 -   <details>
@@ -46,7 +46,9 @@
             --- | ---
             Period to translate source code to intermediate code like .exe | Period between start of running intermediate code through Assembly code and finish running at a runtime environment
             Check syntax and semantics; error get detected by compiler without execution of program | Run the code and only detected after execution of program
+            <code>{<br>  "code": 400,<br>  "msg": balabala"<br>}</code> | <pre lang="json">{<br>  "id": 10,<br>  "username": "alanpartridge",<br>  "email": "alan@alan.com",<br>  "password_hash": "$2a$10$udX7yvahHS",<br>  "password_salt": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.",<br>  "created_at": "2015-02-14T20:45:26.433Z",<br>  "updated_at": "2015-02-14T20:45:26.540Z"<br>}</pre>
             When we just look at the source code, variables don’t have value | Objects have values when we run the program (Value is only meaningful during execution)
+            
         </details>
 
     -   <details>
